@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JanSetu AI - Digital Governance Platform | Rewa District</title>
+  <meta name="description" content="AI-Powered Digital Governance and Workflow Automation Platform for Rewa District, Madhya Pradesh. Team Vindhya Innovators, AKS University." />
+  <meta property="og:title" content="JanSetu AI - Digital Governance Platform" />
+  <meta property="og:description" content="AI-Powered Digital Governance and Workflow Automation Platform for Rewa District, Madhya Pradesh. Team Vindhya Innovators, AKS University." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Demo Disclaimer Banner -->
+  <div class="demo-banner" role="banner">
+    <div class="demo-banner-content">
+      <span class="demo-badge-pill">DEMO PROTOTYPE</span>
+      <span data-i18n="demoNotice">DEMO PROTOTYPE | Sample Data | Not an Official Government Portal</span>
+    </div>
+    <button class="demo-reset-btn" data-action="reset-data" data-i18n="resetDemoData">Reset Demo Data</button>
+  </div>
+
+  <!-- Role Quick Switcher -->
+  <div class="role-bar">
+    <div class="role-bar-label">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      <span data-i18n="switchRole">Switch Role (Demo):</span>
+    </div>
+    <div class="role-nav-links">
+      <a href="citizen.html" class="role-chip" data-role-switch="citizen">
+        <span data-i18n="roleCitizen">Citizen</span>
+      </a>
+      <a href="officer.html" class="role-chip" data-role-switch="officer">
+        <span data-i18n="roleOfficer">Officer</span>
+      </a>
+      <a href="administration.html" class="role-chip" data-role-switch="admin">
+        <span data-i18n="roleAdmin">District Admin</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-link" aria-label="JanSetu AI Home">
+        <div class="brand-icon-box">
+          <img src="assets/images/logo.svg" alt="JanSetu AI Logo" width="32" height="32" />
+        </div>
+        <div class="brand-text-block">
+          <span class="brand-title" data-i18n="appTitle">जनसेतु AI (JanSetu AI)</span>
+          <span class="brand-subtitle" data-i18n="appSubtitle">रीवा जिला डिजिटल गवर्नेंस एवं समाधान मंच</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active" data-i18n="navHome">Home</a>
+        <a href="citizen.html" class="nav-link" data-i18n="navCitizen">Citizen Portal</a>
+        <a href="officer.html" class="nav-link" data-i18n="navOfficer">Officer Portal</a>
+        <a href="administration.html" class="nav-link" data-i18n="navAdmin">District Administration</a>
+        <a href="services.html" class="nav-link" data-i18n="navServices">Services & FAQ</a>
+        <a href="tracking.html" class="nav-link" data-i18n="navTracking">Track Complaint</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="lang-toggle-btn" aria-label="Switch Language">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span data-i18n="languageName">English</span>
+        </button>
+        <a href="citizen.html" class="btn btn-primary btn-sm" data-i18n="enterDemo">Enter Demo</a>
+        <button class="mobile-nav-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" class="main-content">
+    <!-- Hero Section -->
+    <section class="page-container" style="padding-top: 3rem; padding-bottom: 3.5rem;">
+      <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 3rem; align-items: center;" class="hero-grid">
+        <div>
+          <div style="display:inline-flex; align-items:center; gap:0.5rem; background:var(--color-light-blue); color:var(--color-primary-blue); padding:0.25rem 0.75rem; border-radius:var(--radius-sm); font-size:var(--text-xs); font-weight:700; margin-bottom:1rem; border:1px solid #BFDBFE;">
+            <span>REWA DISTRICT HACKATHON PROTOTYPE</span>
+            <span>·</span>
+            <span>SMART REWA 2030</span>
+          </div>
+          <h1 class="hero-headline" style="font-size: 2.5rem; font-weight: 800; color: var(--color-primary-navy); line-height: 1.2; margin-bottom: 1.25rem; letter-spacing: -0.02em;" data-i18n="heroHeadline">
+            आपकी आवाज़। आपका आवेदन। समाधान का पारदर्शी मार्ग।
+          </h1>
+          <p style="font-size: var(--text-base); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 2rem;" data-i18n="heroSubhead">
+            अपनी सार्वजनिक समस्या को सरल हिंदी या अंग्रेजी में बताएं। जनसेतु AI रीवा जिले में नागरिक शिकायतों को सुव्यवस्थित, ट्रैक करने योग्य डिजिटल कार्यप्रणाली में बदलने का प्रोटोटाइप प्रस्तुत करता है।
+          </p>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap;" class="hero-actions">
+            <a href="citizen.html" class="btn btn-primary btn-lg" data-i18n="getStarted">
+              शुरू करें (नागरिक पोर्टल)
+            </a>
+            <a href="#how-it-works" class="btn btn-outline btn-lg" data-i18n="exploreHow">
+              प्रक्रिया समझें
+            </a>
+          </div>
+        </div>
+        <div style="display:flex; justify-content:center; align-items:center;">
+          <img src="assets/images/hero-illustration.svg" alt="JanSetu AI Civic Workflow Illustration" style="width: 100%; max-width: 520px; height: auto;" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Citizen Action Cards -->
+    <section style="background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); padding: 3rem 0;">
+      <div class="page-container">
+        <div style="text-align: center; margin-bottom: 2.5rem;">
+          <h2 style="font-size: var(--text-2xl); font-weight: 800; color: var(--color-primary-navy); margin-bottom: 0.5rem;" data-i18n="quickCategoriesTitle">
+            नागरिक त्वरित सेवाएं
+          </h2>
+          <p style="font-size: var(--text-sm); color: var(--color-text-secondary);" data-i18n="quickCategoriesSub">
+            रीवा जिले के नागरिकों के लिए आसान व पारदर्शी डिजिटल विकल्प
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;">
+          <!-- Card 1 -->
+          <a href="citizen.html#wizard" class="card card-interactive" style="padding: 1.75rem; text-decoration: none;">
+            <div style="width: 44px; height: 44px; border-radius: var(--radius-md); background: #EFF6FF; color: var(--color-primary-blue); display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+            </div>
+            <h3 style="font-size: var(--text-base); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.5rem;" data-i18n="actionCard1Title">शिकायत दर्ज करें</h3>
+            <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.5;" data-i18n="actionCard1Desc">सरल हिंदी में अपनी समस्या बताएं, श्रेणी व स्थान का चयन करें।</p>
+          </a>
+
+          <!-- Card 2 -->
+          <a href="tracking.html" class="card card-interactive" style="padding: 1.75rem; text-decoration: none;">
+            <div style="width: 44px; height: 44px; border-radius: var(--radius-md); background: #F0FDF4; color: var(--color-success); display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 style="font-size: var(--text-base); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.5rem;" data-i18n="actionCard2Title">शिकायत ट्रैक करें</h3>
+            <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.5;" data-i18n="actionCard2Desc">अधिकारी की टिप्पणी, विभाग की कार्यवाही व प्रगति लाइव देखें।</p>
+          </a>
+
+          <!-- Card 3 -->
+          <a href="services.html" class="card card-interactive" style="padding: 1.75rem; text-decoration: none;">
+            <div style="width: 44px; height: 44px; border-radius: var(--radius-md); background: #FEF3C7; color: var(--color-warning); display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            </div>
+            <h3 style="font-size: var(--text-base); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.5rem;" data-i18n="actionCard3Title">सरकारी सेवाएं</h3>
+            <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.5;" data-i18n="actionCard3Desc">आय प्रमाण पत्र, नल संयोजन व लोक सेवा केंद्र की मार्गदर्शन जानकारी।</p>
+          </a>
+
+          <!-- Card 4 -->
+          <a href="citizen.html#assistant" class="card card-interactive" style="padding: 1.75rem; text-decoration: none;">
+            <div style="width: 44px; height: 44px; border-radius: var(--radius-md); background: #F1F5F9; color: var(--color-primary-navy); display: flex; align-items: center; justify-content: center; margin-bottom: 1.25rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3 style="font-size: var(--text-base); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.5rem;" data-i18n="actionCard4Title">AI सहायक से पूछें</h3>
+            <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.5;" data-i18n="actionCard4Desc">सिम्युलेटेड सहायक समस्या पहचानकर सही कदम सुझाता है।</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="page-container" style="padding: 4rem 1.5rem;">
+      <div style="text-align: center; margin-bottom: 3rem;">
+        <h2 style="font-size: var(--text-2xl); font-weight: 800; color: var(--color-primary-navy); margin-bottom: 0.5rem;" data-i18n="howItWorksTitle">
+          जनसेतु AI कैसे काम करता है?
+        </h2>
+        <p style="font-size: var(--text-sm); color: var(--color-text-secondary); max-width: 600px; margin: 0 auto;" data-i18n="tagline">
+          नागरिक की समस्या से समाधान तक: डिजिटल, समझदारीपूर्ण और पारदर्शी।
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; position: relative;">
+        <!-- Step 1 -->
+        <div class="card" style="padding: 1.5rem; text-align: center;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--color-primary-blue); color: #FFF; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: 800; font-size: 0.9rem;">1</div>
+          <h4 style="font-size: var(--text-sm); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.35rem;" data-i18n="howStep1">समस्या बताएं</h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.4;" data-i18n="howStep1Desc">टाइप करके या बोलकर अपनी परेशानी सरल शब्दों में बताएं।</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="card" style="padding: 1.5rem; text-align: center;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--color-primary-blue); color: #FFF; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: 800; font-size: 0.9rem;">2</div>
+          <h4 style="font-size: var(--text-sm); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.35rem;" data-i18n="howStep2">श्रेणी सत्यापन</h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.4;" data-i18n="howStep2Desc">स्मार्ट प्रणाली संबंधित विभाग सुझाती है, जिसे आप बदल भी सकते हैं।</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="card" style="padding: 1.5rem; text-align: center;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--color-primary-blue); color: #FFF; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: 800; font-size: 0.9rem;">3</div>
+          <h4 style="font-size: var(--text-sm); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.35rem;" data-i18n="howStep3">डेमो शिकायत दर्ज</h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.4;" data-i18n="howStep3Desc">आपको एक विशिष्ट ट्रैकिंग नंबर (ID) प्राप्त होता है।</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="card" style="padding: 1.5rem; text-align: center;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--color-primary-navy); color: #FFF; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: 800; font-size: 0.9rem;">4</div>
+          <h4 style="font-size: var(--text-sm); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.35rem;" data-i18n="howStep4">अधिकारी समीक्षा</h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.4;" data-i18n="howStep4Desc">विभागीय अधिकारी शिकायत देखकर टीम नियुक्त करते हैं और टिप्पणी दर्ज करते हैं।</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="card" style="padding: 1.5rem; text-align: center;">
+          <div style="width: 36px; height: 36px; border-radius: 50%; background: var(--color-success); color: #FFF; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-weight: 800; font-size: 0.9rem;">5</div>
+          <h4 style="font-size: var(--text-sm); font-weight: 700; color: var(--color-primary-navy); margin-bottom: 0.35rem;" data-i18n="howStep5">पारदर्शी ट्रैकिंग</h4>
+          <p style="font-size: var(--text-xs); color: var(--color-text-secondary); line-height: 1.4;" data-i18n="howStep5Desc">नागरिक समाधान होने तक हर कदम को स्पष्ट रूप से देख सकते हैं।</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stakeholder Access Section -->
+    <section style="background: var(--color-surface); border-top: 1px solid var(--color-border); padding: 4rem 0;">
+      <div class="page-container">
+        <div style="text-align: center; margin-bottom: 2.5rem;">
+          <h2 style="font-size: var(--text-2xl); font-weight: 800; color: var(--color-primary-navy); margin-bottom: 0.5rem;" data-i18n="portalsTitle">
+            डेमो पोर्टल अनुभव चुनें
+          </h2>
+          <p style="font-size: var(--text-sm); color: var(--color-text-secondary);" data-i18n="portalsDesc">
+            नागरिक, अधिकारी और जिला प्रशासन के अलग-अलग दृष्टिकोण का परीक्षण करें।
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.75rem;">
+          <!-- Stakeholder 1 -->
+          <div class="card" style="display: flex; flex-direction: column;">
+            <div class="card-body" style="flex: 1;">
+              <div style="font-size: var(--text-xs); font-weight: 700; color: var(--color-primary-blue); text-transform: uppercase; margin-bottom: 0.5rem;">Citizen Interface</div>
+              <h3 style="font-size: var(--text-xl); font-weight: 800; color: var(--color-primary-navy); margin-bottom: 0.75rem;" data-i18n="navCitizen">नागरिक पोर्टल</h3>
+              <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">
+                ग्रामीण एवं शहरी नागरिकों के लिए सरल, हिंदी-प्रथम इंटरफ़ेस। बोलकर या लिखकर शिकायत दर्ज करें, सरकारी योजनाओं की जानकारी लें और ट्रैकिंग आईडी प्राप्त करें।
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="citizen.html" class="btn btn-primary" style="width: 100%;">
+                नागरिक पोर्टल खोलें (Open Citizen Portal)
+              </a>
+            </div>
+          </div>
+
+          <!-- Stakeholder 2 -->
+          <div class="card" style="display: flex; flex-direction: column;">
+            <div class="card-body" style="flex: 1;">
+              <div style="font-size: var(--text-xs); font-weight: 700; color: var(--color-warning); text-transform: uppercase; margin-bottom: 0.5rem;">Officer Desk Simulation</div>
+              <h3 style="font-size: var(--text-xl); font-weight: 800; color: var(--color-primary-navy); margin-bottom: 0.75rem;" data-i18n="navOfficer">अधिकारी पोर्टल</h3>
+              <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">
+                विभागीय अधिकारियों के लिए कार्यप्रणाली डेस्क। शिकायतों की समीक्षा करें, विभाग आवंटित करें, स्थिति बदलें और फील्ड रिपोर्ट टिप्पणी दर्ज करें।
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="officer.html" class="btn btn-secondary" style="width: 100%;">
+                अधिकारी डेस्क खोलें (Open Officer Desk)
+              </a>
+            </div>
+          </div>
+
+          <!-- Stakeholder 3 -->
+          <div class="card" style="display: flex; flex-direction: column;">
+            <div class="card-body" style="flex: 1;">
+              <div style="font-size: var(--text-xs); font-weight: 700; color: var(--color-success); text-transform: uppercase; margin-bottom: 0.5rem;">Administrative Analytics</div>
+              <h3 style="font-size: var(--text-xl); font-weight: 800; color: var(--color-primary-navy); margin-bottom: 0.75rem;" data-i18n="navAdmin">जिला प्रशासन</h3>
+              <p style="font-size: var(--text-sm); color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">
+                रीवा कलेक्टर एवं विभागाध्यक्षों के लिए व्यापक डैशबोर्ड। सांकेतिक भौगोलिक हॉटस्पॉट मानचित्र, श्रेणी विश्लेषण एवं समय-सीमा (SLA) अनुपालन मेट्रिक्स।
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="administration.html" class="btn btn-outline" style="width: 100%;">
+                जिला डैशबोर्ड देखें (Open Admin Dashboard)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
+            <img src="assets/images/logo.svg" alt="JanSetu AI Logo" width="28" height="28" />
+            <span style="font-size:var(--text-lg); font-weight:700; color:#FFF;">JanSetu AI</span>
+          </div>
+          <p data-i18n="tagline">नागरिक की समस्या से समाधान तक: डिजिटल, समझदारीपूर्ण और पारदर्शी।</p>
+          <div style="margin-top:1rem; font-size:var(--text-xs); color:#64748B;">
+            Focus: Rewa District, Madhya Pradesh, India
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-heading">Demo Portals</div>
+          <div class="footer-links">
+            <a href="citizen.html" data-i18n="navCitizen">Citizen Portal</a>
+            <a href="officer.html" data-i18n="navOfficer">Officer Portal</a>
+            <a href="administration.html" data-i18n="navAdmin">District Administration</a>
+            <a href="tracking.html" data-i18n="navTracking">Track Complaint</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-heading">Documentation</div>
+          <div class="footer-links">
+            <a href="services.html" data-i18n="navServices">Services Guidance</a>
+            <a href="README.md" target="_blank">Project README</a>
+            <a href="docs/demo-script.md" target="_blank">Hackathon Demo Script</a>
+            <a href="docs/prototype-limitations.md" target="_blank">Prototype Boundaries</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-academic-card">
+            <strong>Team Vindhya Innovators</strong>
+            <div>AKS University, Satna / Rewa Region</div>
+            <div style="margin-top:0.35rem; color:#94A3B8;">
+              iComputex TechFest 2026<br />
+              Smart Rewa 2030 Hackathon
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 JanSetu AI · Academic Hackathon Prototype · Not an official government website.
+        </div>
+        <div style="display:flex; gap:1rem;">
+          <button class="demo-reset-btn" data-action="reset-data">Reset Demo Data</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/complaint-service.js"></script>
+  <script src="js/localization.js"></script>
+  <script src="js/ai-simulator.js"></script>
+  <script src="js/accessibility.js"></script>
+  <script src="js/navigation.js"></script>
+</body>
+</html>

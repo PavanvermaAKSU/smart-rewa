@@ -1,0 +1,6 @@
+{
+  "name": "JanSetu AI - Digital Governance Platform",
+  "description": "AI-Powered Digital Governance and Workflow Automation Platform for Rewa District, Madhya Pradesh. Team Vindhya Innovators, AKS University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
